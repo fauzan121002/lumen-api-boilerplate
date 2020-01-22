@@ -30,6 +30,6 @@ check out ROOT/routes/web.php
 
 ## Register Your Service Provider
 
-check out bootstrap/app.php
+check out ROOT/bootstrap/app.php
 
 #Enjoy!!! @smile
