@@ -4,8 +4,7 @@
 What's inside?
 
 * Service Provider & Service Container
-* API Routes
-* Controller
+* API Controllers & Routes
 
 ### Usage
 
