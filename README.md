@@ -8,8 +8,8 @@ What's inside?
 
 ### Usage
 
-1. git clone https://github.com/fauzan121002/lumen-api.git
-2. cd lumen-api
+1. git clone https://github.com/fauzan121002/lumen-api-boilerplate.git
+2. cd lumen-api-boilerplate
 3. composer install
 4. rename .env.example to .env
 5. set up your database connection on .env
