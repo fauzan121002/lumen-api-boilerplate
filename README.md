@@ -16,4 +16,16 @@ What's inside?
 5. set up your database connection on .env
 6. php artisan migrate
 
+## Route List
+| Routes        | Methods       |
+| ------------- |:-------------:|
+| /api/service  | GET           |
+| /api/todo     | GET           |
+| /api/todo/{id}| GET           |
+| /api/todo     | POST          |
+| /api/todo/{id}| PUT           |
+| /api/todo/{id}| DELETE        |
+
+check out ROOT/routes/web.php
+
 #Enjoy!!! @smile
