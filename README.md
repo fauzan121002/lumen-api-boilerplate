@@ -31,4 +31,4 @@ check out ROOT/routes/web.php
 
 check out ROOT/bootstrap/app.php
 
-#Enjoy!!! @smile
+# Enjoy!!
