@@ -28,4 +28,8 @@ What's inside?
 
 check out ROOT/routes/web.php
 
+## Register Your Service Provider
+
+check out bootstrap/app.php
+
 #Enjoy!!! @smile
