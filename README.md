@@ -13,7 +13,7 @@ What's inside?
 2. cd lumen-api
 3. composer install
 4. rename .env.example to .env
-5. set up your database connection
+5. set up your database connection on .env
 6. php artisan migrate
 
 #Enjoy!!! @smile
