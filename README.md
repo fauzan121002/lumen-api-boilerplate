@@ -1,22 +1,26 @@
-#Lumen TodoAPI Boilerplate
-## Author : Muhammad Fauzan
-
-What's inside?
-
-* Service Provider & Service Container
-* API Controllers & Routes
+# Lumen TodoAPI Boilerplate
 
 ### Usage
 
-1. git clone https://github.com/fauzan121002/lumen-api-boilerplate.git
-2. cd lumen-api-boilerplate
-3. composer install
-4. rename .env.example to .env
-5. set up your database connection on .env
-6. php artisan migrate
+**Clone the project and move to the folder**
+```bash
+git clone https://github.com/fauzan121002/lumen-api-boilerplate.git
+cd lumen-api-boilerplate
+```
+
+**Setup the project**
+```bash
+composer install
+copy .env.example .env
+php artisan key:generate
+
+#after setup your .env database connection
+php artisan migrate
+```
 
 ## Route List
-| Routes        | Methods       |
+
+| Routes        | Method        |
 | ------------- |:-------------:|
 | /api/service  | GET           |
 | /api/todo     | GET           |
@@ -25,10 +29,5 @@ What's inside?
 | /api/todo/{id}| PUT           |
 | /api/todo/{id}| DELETE        |
 
-check out ROOT/routes/web.php
 
-## Register Your Service Provider
-
-check out ROOT/bootstrap/app.php
-
-# Enjoy!!
+register your service provider in `$ROOT/bootstrap/app.php`
